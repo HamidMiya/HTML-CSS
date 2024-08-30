@@ -1,0 +1,245 @@
+/* .head h1{
+color: green;
+}
+#about h2{
+color: red;
+}
+.nav-bar li:nth-child(1){
+color: blue;
+}
+*{
+font-size: 20px;
+}
+ul>li{
+color: red;
+} */
+
+/* .para{
+    font-size: 22pt;
+    /* background-color: yellow; */
+    /* text-decoration: overline;
+    word-spacing: 121px;
+    text-align: justify;
+    text-indent: 99px;
+    text-shadow: -1px -7px purple;
+    /* text-shadow: 50px 10px red; */
+/* }
+p::first-letter{
+font-size: 72pt;
+}
+.para:hover{
+    background-color: yellow;
+    color:  red;
+}
+
+.buton:hover{
+color: blue;
+    background-color: pink;
+}
+input {
+    border: 2px solid chocolate;
+    color: pink;}
+    input.text {
+        color: green;}
+        input.text:focus {
+        color: orangered;}  */
+
+
+
+
+/* .home , .about , .contact , .gallery , .faqs {
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+    border: 2px solid;
+    border-color: brown;
+    text-align: center;
+} */
+
+.container {
+    display: flex;
+    justify-content: space-around; /* This will space out your items evenly */
+}
+.home, .about, .contact, .gallery, .faqs {
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+    border: 2px solid;
+    border-color: brown;
+    text-align: center;
+    display: inline-block; /* Add this line */
+    margin-right: 30px; /* Optional: Add some spacing between the elements */
+}
+.home:hover{
+    color: red;
+    background-color: pink;
+    border-color: red;
+    text-shadow: -5 -5;
+    font-size: 20pt;
+
+}
+.about:hover{
+    color: red;
+    background-color: pink;
+    border-color: red;
+    text-shadow: 5,5;
+    font-size: 20pt;
+}
+.gallery:hover{
+    color: red;
+    background-color: pink;
+    border-color: red;
+    text-shadow: 5,5;
+    font-size: 20pt;
+}.contact:hover{
+    color: red;
+    background-color: pink;
+    border-color: red;
+    text-shadow: 5,5;
+    font-size: 20pt;
+}
+.faqs:hover{
+    color: red;
+    background-color: pink;
+    border-color: red;
+    text-shadow: 5,5;
+    font-size: 20pt;
+}
+
+
+/* td.tabled{ */
+    /* min-width: 450px; */
+    
+    /* max-width: 650px;
+    text-align: justify;
+    padding: 5px;
+    padding-bottom: 40px;
+    margin: auto;}
+    .headingofassignment{
+        word-spacing: 350px;
+        padding: 20px;
+        text-decoration: underline;
+text-decoration-thickness : 20px;
+    }
+    img{
+        padding: 15px;
+    }
+td.price{
+padding-bottom: 70px;
+padding-left: 50px; }*/
+
+
+
+/* .box1 {
+    width: 150px;
+    height: 215px;
+    background-color: azure;
+    border-color: aqua;
+    border: 1px solid;
+    font-style: justify;
+}
+
+.box2 {
+    width: 150px;
+    height: 215px;
+    background-color: azure;
+    border-color: aqua;
+    border: 5px solid;
+    font-style: justify;
+}
+
+.box3 {
+    width: 150px;
+    height: 215px;
+    background-color: azure;
+    border-color: aqua;
+    border:  solid;
+    font-style: justify;
+border-width: 1px 4px 50px 5px ;
+} */
+
+
+
+
+
+.box1{
+    border-style: dashed;
+    width: 150px;
+    height: 215px;
+    background-color: azure;
+    border-color: aqua;
+    font-style: justify;
+}
+.box2{
+    /* border-style: outset; */
+    border-style: hidden;
+    width: 150px;
+    height: 215px;
+    background-color: azure;
+    border-color: aqua;
+    font-style: justify;
+}
+/* .box3{
+    border-style: double;
+    width: 150px;
+    height: 215px;
+    background-color: azure;
+    border-color: aqua;
+    border-radius: 10px;
+    font-style: justify;
+} */
+.box3{
+    border-top-style:dotted;
+border-left-style:groove;
+border-right-style:dashed;
+border-bottom-style:hidden;
+width: 150px;
+    height: 215px;
+    background-color: azure;
+    border-color: aqua;
+    border-radius: 10px;
+    font-style: justify;
+    border-color: #bbbbaa #111111 #ee3e80 #0088dd;
+}
+
+.cntr1{
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: #bbbbaa;
+    color: green;
+    border: 20px solid;
+    padding: 20px;
+margin: auto;
+}
+.cntr1:hover{
+    border: #111111;
+    size: 300px;
+    font-size: 10pt;
+    color: #0088dd;
+    background-color: #111111;
+
+}
+.cntr2{
+    height: 200px;
+    width: 200px;
+    color: green;
+    background-color: #bbbbaa;
+    border: 20px solid;
+    border-radius: 30px;
+    padding: 20px;
+    margin: auto;
+
+}
+
+
+
+/* 1. Create a personal website that includes a homepage (structure), an about me page (text), a portfolio page with different projects listed in a list format (lists), links to your social media profiles (links), images of your work (images), a resume displayed in a table format (tables), and a contact form for potential clients to reach out to you (forms).
+
+2. Develop an online recipe book that categorizes recipes into different lists (lists), includes links to related recipes or articles (links), displays images of the final dish (images), and allows users to input their own recipes through a form (forms).
+
+3. Design a movie database website that showcases different movies in a table format (tables), includes links to trailers or reviews (links), displays images of the movie posters (images), and allows users to search for movies by genre or director (forms).
+
+4. Create a blog platform where users can submit text posts (text), categorize their posts using lists, include links to related articles or websites, display images within their posts, and respond to comments using a form.
+
+5. Develop a travel website that displays a list of destinations (lists), includes links to hotels or tours (links), showcases images of each location (images), presents pricing information in a table format (tables), and allows users to book their trip using a form. */
